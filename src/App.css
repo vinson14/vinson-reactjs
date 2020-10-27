@@ -71,8 +71,9 @@ body,
 /* NavBar */
 
 .navbar-nav .active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #4bffa5 !important;
     font-weight: bold;
+    color: #4bffa5 !important;
 }
 
 .navbar-nav a:hover {
@@ -102,7 +103,8 @@ body,
 }
 
 .navbar-mobile .nav a.active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #4bffa5 !important;
+    color: #4bffa5 !important;
 }
 
 .navbar-mobile .nav a:hover {
@@ -116,7 +118,7 @@ body,
 }
 
 #navbar-mobile {
-    background-color: #d31145;
+    background-color: #1b1b1e;
     position: fixed;
     top: 0;
     left: 0;

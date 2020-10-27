@@ -2,16 +2,13 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Image, Button, Nav } from "react-bootstrap";
 
-import logoDark from "../static/logos/vinsonong.png";
-import logoLight from "../static/logos/vinsonong.png";
+import logo from "../static/logos/vinsonong.png";
 
 class NavBarMobile extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            logo: logoDark,
             toggleIcon: "fa-bars",
-            toggleIconColor: "text-white",
             navbarActive: "",
         };
     }
@@ -21,15 +18,11 @@ class NavBarMobile extends React.Component {
             this.setState({
                 navbarActive: "",
                 toggleIcon: "fa-bars",
-                toggleIconColor: "text-dark",
-                logo: logoDark,
             });
         } else {
             this.setState({
                 navbarActive: "active",
-                toggleIconColor: "text-white",
                 toggleIcon: "fa-times",
-                logo: logoLight,
             });
         }
     };
@@ -48,9 +41,11 @@ class NavBarMobile extends React.Component {
             );
         });
         return (
-            <div className={`navbar-mobile d-flex justify-content-between ${this.props.pos}-top bg-${this.props.bg}`}>
+            <div
+                className={`navbar-mobile d-flex justify-content-between ${this.props.pos}-top bg-${this.props.bg}`}
+            >
                 <Link to="/" id="logo">
-                    <Image src={this.state.logo} width="120" />
+                    <Image src={logo} width="120" />
                 </Link>
                 <Button
                     variant="outline-dark"
@@ -58,7 +53,7 @@ class NavBarMobile extends React.Component {
                     onClick={this.toggleNavBar}
                 >
                     <i
-                        className={`fas ${this.state.toggleIcon} fa-2x ${this.state.toggleIconColor}`}
+                        className={`fas ${this.state.toggleIcon} fa-2x text-light`}
                     />
                 </Button>
                 <Nav id="navbar-mobile" className={this.state.navbarActive}>
