@@ -1,38 +1,304 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+html,
+body,
+#root {
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Home {
+    height: 100%;
+    background-image: url(./static/img/home-bg.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-black {
+    background-color: #1b1b1e;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pri-font {
+    font-family: "Poppins", sans-serif !important;
+    line-height: 1.4;
+    letter-spacing: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+.sec-font {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.typewriter-font {
+    font-family: "Courier Prime", monospace;
+}
+
+.font-light {
+    font-weight: 200;
+}
+
+.green-color {
+    color: #4bffa5;
+}
+
+.text-yellow {
+    color: #e0a458;
+}
+
+.translucent-black {
+    background-color: rgba(50, 50, 50, 0.7);
+}
+
+/* Progress Bar */
+
+.progress {
+    background-color: #bfcde0;
+    height: 10px;
+    position: relative;
+}
+
+.progress-percent {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #4bffa5;
+}
+
+/*-- Progress Bar -- */
+
+/* NavBar */
+
+.navbar-nav .active {
+    border-bottom: 1px solid white;
+    font-weight: bold;
+}
+
+.navbar-nav a:hover {
+    font-weight: bold;
+    text-decoration: none !important;
+    border-bottom: 1px solid white;
+}
+
+/* NavBar Mobile */
+.navbar-mobile #logo {
+    z-index: 6;
+}
+
+.navbar-mobile .btn-outline-dark {
+    border: none !important;
+}
+
+.navbar-mobile .btn-outline-dark:hover {
+    background-color: transparent;
+}
+
+.navbar-mobile .btn-outline-dark:active {
+    background-color: transparent !important;
+}
+.navbar-mobile .btn-outline-dark:focus {
+    box-shadow: none !important;
+}
+
+.navbar-mobile .nav a.active {
+    border-bottom: 1px solid white;
+}
+
+.navbar-mobile .nav a:hover {
+    font-weight: bold;
+    text-decoration: none !important;
+    border-bottom: 1px solid white;
+}
+
+.navbar-mobile button {
+    z-index: 6;
+}
+
+#navbar-mobile {
+    background-color: #d31145;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+    transition: all 0.6s;
+}
+
+#navbar-mobile.active {
+    -webkit-transform: translateX(0%) !important;
+    transform: translateX(0%) !important;
+}
+
+/** Animation **/
+.typewriter p {
+    border-right: 0.15em solid #4bffa5;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.typewriter p:nth-child(1) {
+    width: 250px;
+    -webkit-animation: type 2s steps(40, end),
+        blink 0.5s step-end infinite alternate;
+    animation: type 2s steps(40, end), blink 0.5s step-end infinite alternate;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.typewriter p:nth-child(2) {
+    width: 200px;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end),
+        blink 0.5s step-end infinite alternate;
+    animation: type2 2s steps(40, end), blink 0.5s step-end infinite alternate;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.typewriter p:nth-child(3) {
+    width: 270px;
+    opacity: 0;
+    -webkit-animation: type3 2s steps(40, end),
+        blink 0.5s step-end infinite alternate;
+    animation: type3 2s steps(40, end), blink 0.5s step-end infinite alternate;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: 0.15em solid #4bffa5;
+    }
+    100% {
+        border: none;
+    }
+}
+
+@-webkit-keyframes type {
+    0% {
+        width: 0;
+    }
+    99.9% {
+        border-right: 0.15em solid #4bffa5;
+    }
+    100% {
+        border: none;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99.9% {
+        border-right: 0.15em solid #4bffa5;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@-webkit-keyframes type2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99.9% {
+        border-right: 0.15em solid #4bffa5;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@keyframes type3 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type3 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+@-webkit-keyframes blink {
+    50% {
+        border-color: tranparent;
+    }
+}
+/* Animation */
+
+/* XS Devices */
+html {
+    font-size: 12px !important;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    html {
+        font-size: 12px !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    html {
+        font-size: 12px !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    html {
+        font-size: 14px !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px !important;
+    }
 }

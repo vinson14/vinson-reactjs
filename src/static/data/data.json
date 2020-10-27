@@ -1,0 +1,69 @@
+{
+    "about": {
+        "profile": "I am an Associate Financial Consultant with AIA Singapore (SP-HUX) since 2015 with experience in both personal and commercial insurance. I joined in 2015 whilst I was still an undergraduate in NUS and I have since generated more than $0.5mil in revenue. I utilise the logical thinking imbued in me as a student of engineering to deliver sound financial advice to my clients. \n \n Equipping myself with new skills in a variety of areas is something which I constantly do. Web development, machine learning algorithms, algorithmic trading, photography are some skills which I have taught myself through various platforms. I believe that constantly increasing my arsenal of skills and applying them in my life is the only way to thrive in today's fast-paced society.",
+        "qualifications": [
+            {
+                "name": "Bachelors of Engineering\n(Chemical Engineering)\nwith Honours (Distinction)",
+                "institution": "National University of Singapore"
+            },
+            {
+                "name": "M5\nRules & Regulations\nfor Financial Advisory",
+                "institution": "Singapore College of Insurance"
+            },
+            {
+                "name": "M9 & M9A\n Life Insurance\nand Investment-Linked Policies",
+                "institution": "Singapore College of Insurance"
+            },
+            {
+                "name": "Chartered Financial Consultant\nSingapore\nModule 01",
+                "institution": "Singapore College of Insurance"
+            },
+            {
+                "name": "Certificate in\nGeneral Insurance\n(CGI)",
+                "institution": "Singapore College of Insurance"
+            },
+            {
+                "name": "CS50's\nIntroduction to\nComputer Science",
+                "institution": "Cambridge, Massachusetts"
+            },
+            {
+                "name": "Financial Technology\nProgramme 2020",
+                "institution": "National University of Singapore"
+            }
+        ],
+        "skills": [
+            {
+                "name": "ReactJS",
+                "rating": 80
+            },
+            {
+                "name": "Python-Flask",
+                "rating": 80
+            },
+            {
+                "name": "Python",
+                "rating": 80
+            },
+            {
+                "name": "C Programming",
+                "rating": 80
+            },
+            {
+                "name": "SQL",
+                "rating": 70
+            },
+            {
+                "name": "Lightroom",
+                "rating": 60
+            },
+            {
+                "name": "Machine Learning Algorithms",
+                "rating": 50
+            },
+            {
+                "name": "Financial Advisory",
+                "rating": 95
+            }
+        ]
+    }
+}
