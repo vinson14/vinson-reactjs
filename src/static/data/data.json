@@ -65,5 +65,17 @@
                 "rating": 95
             }
         ]
-    }
+    },
+    "experiences": [
+        {
+            "role": "Financial Consultant",
+            "institution": "AIA Singapore",
+            "period": "Aug 2015 - Present"
+        },
+        {
+            "role": "Platoon Commander",
+            "institution": "Alpha Company, 10C4i Battalion",
+            "period": "Jan 2013 - Nov 2013"
+        }
+    ]
 }

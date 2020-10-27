@@ -2,6 +2,7 @@ import React from "react";
 import { Container} from "react-bootstrap";
 
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import AboutMe from "../components/AboutMe";
 import MyQualifications from "../components/MyQualifications";
 import data from "../static/data/data.json";
@@ -17,6 +18,7 @@ class About extends React.Component {
                     <MyQualifications qualifications={data.about.qualifications} />
                     <MySkills skills={data.about.skills} />
                 </Container>
+                <Footer />
             </div>
         );
     }
