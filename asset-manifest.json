@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/vinson-reactjs/static/css/main.4eff5040.chunk.css",
-    "main.js": "/vinson-reactjs/static/js/main.1c637f50.chunk.js",
-    "main.js.map": "/vinson-reactjs/static/js/main.1c637f50.chunk.js.map",
-    "runtime-main.js": "/vinson-reactjs/static/js/runtime-main.e5292b81.js",
-    "runtime-main.js.map": "/vinson-reactjs/static/js/runtime-main.e5292b81.js.map",
-    "static/css/2.20aa2d7b.chunk.css": "/vinson-reactjs/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.7687c7d3.chunk.js": "/vinson-reactjs/static/js/2.7687c7d3.chunk.js",
-    "static/js/2.7687c7d3.chunk.js.map": "/vinson-reactjs/static/js/2.7687c7d3.chunk.js.map",
-    "static/js/3.2b6ee8d9.chunk.js": "/vinson-reactjs/static/js/3.2b6ee8d9.chunk.js",
-    "static/js/3.2b6ee8d9.chunk.js.map": "/vinson-reactjs/static/js/3.2b6ee8d9.chunk.js.map",
-    "index.html": "/vinson-reactjs/index.html",
-    "static/css/2.20aa2d7b.chunk.css.map": "/vinson-reactjs/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.4eff5040.chunk.css.map": "/vinson-reactjs/static/css/main.4eff5040.chunk.css.map",
-    "static/js/2.7687c7d3.chunk.js.LICENSE.txt": "/vinson-reactjs/static/js/2.7687c7d3.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/vinson-reactjs/static/media/home-bg.d36a5a6d.jpg",
-    "static/media/vinson.00024d4f.png": "/vinson-reactjs/static/media/vinson.00024d4f.png"
+    "main.css": "/static/css/main.26ee009b.chunk.css",
+    "main.js": "/static/js/main.2309ecbe.chunk.js",
+    "main.js.map": "/static/js/main.2309ecbe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a52dee12.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a52dee12.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.7687c7d3.chunk.js": "/static/js/2.7687c7d3.chunk.js",
+    "static/js/2.7687c7d3.chunk.js.map": "/static/js/2.7687c7d3.chunk.js.map",
+    "static/js/3.2b6ee8d9.chunk.js": "/static/js/3.2b6ee8d9.chunk.js",
+    "static/js/3.2b6ee8d9.chunk.js.map": "/static/js/3.2b6ee8d9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.26ee009b.chunk.css.map": "/static/css/main.26ee009b.chunk.css.map",
+    "static/js/2.7687c7d3.chunk.js.LICENSE.txt": "/static/js/2.7687c7d3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/home-bg.d36a5a6d.jpg",
+    "static/media/vinson.00024d4f.png": "/static/media/vinson.00024d4f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e5292b81.js",
+    "static/js/runtime-main.a52dee12.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.7687c7d3.chunk.js",
-    "static/css/main.4eff5040.chunk.css",
-    "static/js/main.1c637f50.chunk.js"
+    "static/css/main.26ee009b.chunk.css",
+    "static/js/main.2309ecbe.chunk.js"
   ]
 }
