@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/vinson-website/static/css/main.9d5ad935.chunk.css",
+    "main.js": "/vinson-website/static/js/main.237e8fac.chunk.js",
+    "main.js.map": "/vinson-website/static/js/main.237e8fac.chunk.js.map",
+    "runtime-main.js": "/vinson-website/static/js/runtime-main.5c5b13ea.js",
+    "runtime-main.js.map": "/vinson-website/static/js/runtime-main.5c5b13ea.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/vinson-website/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.7687c7d3.chunk.js": "/vinson-website/static/js/2.7687c7d3.chunk.js",
+    "static/js/2.7687c7d3.chunk.js.map": "/vinson-website/static/js/2.7687c7d3.chunk.js.map",
+    "static/js/3.2b6ee8d9.chunk.js": "/vinson-website/static/js/3.2b6ee8d9.chunk.js",
+    "static/js/3.2b6ee8d9.chunk.js.map": "/vinson-website/static/js/3.2b6ee8d9.chunk.js.map",
+    "index.html": "/vinson-website/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/vinson-website/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.9d5ad935.chunk.css.map": "/vinson-website/static/css/main.9d5ad935.chunk.css.map",
+    "static/js/2.7687c7d3.chunk.js.LICENSE.txt": "/vinson-website/static/js/2.7687c7d3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/vinson-website/static/media/home-bg.d36a5a6d.jpg",
+    "static/media/vinson.00024d4f.png": "/vinson-website/static/media/vinson.00024d4f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c5b13ea.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.7687c7d3.chunk.js",
+    "static/css/main.9d5ad935.chunk.css",
+    "static/js/main.237e8fac.chunk.js"
+  ]
+}
