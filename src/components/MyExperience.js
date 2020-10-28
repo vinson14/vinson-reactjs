@@ -1,31 +1,16 @@
 import React from "react";
-import { Row, Col, Image } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
-import img from "../static/img/portfolio/1.jpg";
+import Flipcard from "../components/Flipcard";
 
 class MyExperience extends React.Component {
     render() {
         const experiences = this.props.experiences.map((e) => {
-            return (
-                <Col key={e.role} xs={12} className="my-3">
-                    <div className="flip-card">
-                        <div className="flip-card-inner">
-                            <div className="flip-card-front">
-                                <Image src={img} fluid/>
-                            </div>
-                            <div className="flip-card-back">
-                                <h1>John Doe</h1>
-                                <p>Architect & Engineer</p>
-                                <p>We love that guy</p>
-                            </div>
-                        </div>
-                    </div>
-                </Col>
-            );
+            return <Flipcard experience={e} key={e.role} />;
         });
 
         return (
-            <Row>
+            <Row className="border-top border-bottom border-grey p-5 justify-content-center">
                 <Col xs={12} className="text-white pri-font text-center">
                     <h1>
                         My <span className="green-color">Experience</span>

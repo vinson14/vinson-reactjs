@@ -5,7 +5,7 @@ class Footer extends React.Component {
         return (
             <footer className={`d-flex justify-content-center w-100 bg-black align-items-center p-3`}>
                 <p className="pri-font text-light text-center m-0">
-                    Copyright © 2020 Hux Financial - All Rights Reserved.
+                    Copyright © 2020 Vinson - All Rights Reserved.
                 </p>
             </footer>
         );
