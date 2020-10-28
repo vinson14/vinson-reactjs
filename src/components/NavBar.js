@@ -23,8 +23,8 @@ class NavBar extends React.Component {
             <Navbar
                 className={`bg-${this.props.bg} justify-content-between ${this.props.pos}-top`}
             >
-                <Navbar.Brand href="/" className="mx-5">
-                    <Image src={logo} width="180px" />
+                <Navbar.Brand href="/" className="mx-2">
+                    <Image src={logo} fluid />
                 </Navbar.Brand>
                 <Nav className="mx-5">{links}</Nav>
             </Navbar>
