@@ -15,6 +15,10 @@ body,
     background-size: cover;
 }
 
+.Contact {
+    min-height: 100vh;
+}
+
 .bg-black {
     background-color: #1b1b1e;
 }
@@ -338,7 +342,7 @@ body,
 
 /* XS Devices */
 html {
-    font-size: 12px !important;
+    font-size: 10px !important;
 }
 
 /* Small devices (landscape phones, 576px and up) */

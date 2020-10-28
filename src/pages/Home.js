@@ -12,20 +12,20 @@ class Home extends React.Component {
         ];
 
         return (
-            <div className="Home h-100">
+            <div className="Home">
                 <Header pos="fixed" bg="transparent"/>
                 <Container className="h-100 d-flex flex-column justify-content-center align-items-center">
                     <Row>
                         <Col className="translucent-black p-5">
                             <h1 className="text-white pri-font font-weight-light">
                                 Hi there! I am{" "}
-                                <span class="green-color font-weight-bold">
+                                <span className="green-color font-weight-bold">
                                     Vinson
                                 </span>
                             </h1>
-                            <div class="typewriter mt-4">
+                            <div className="typewriter mt-4">
                                 {roles.map((role) => (
-                                    <p className="typewriter-font h5 text-white my-3">
+                                    <p className="typewriter-font h5 text-white my-3" key={role}>
                                         {role}
                                     </p>
                                 ))}

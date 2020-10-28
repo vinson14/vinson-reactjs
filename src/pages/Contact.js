@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 class Contact extends React.Component {
     render() {
         return (
-            <div className="Contact bg-black h-100">
+            <div className="Contact bg-black">
                 <Header pos="sticky" bg="black" />
                 <Container>
                     <Row className="border-top border-grey pt-5 justify-content-center">
