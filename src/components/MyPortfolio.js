@@ -9,7 +9,7 @@ class MyPortfolio extends React.Component {
 
         for (let i = 1; i <= data.photoPortfolio; i++) {
             let photo = (
-                <Col
+                <Col key={i}
                     className="my-3 justify-content-center d-flex"
                     xs={12}
                     lg={6}

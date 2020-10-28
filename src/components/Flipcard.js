@@ -29,13 +29,13 @@ class Flipcard extends React.Component {
                 <div className="flip-card">
                     <div className={`flip-card-inner ${this.state.flipped}`} style={style}>
                         <div className="flip-card-front">
-                            <h1 className="pri-font">
+                            <h1 className="pri-font text-center">
                                 {this.props.experience.role}
                             </h1>
-                            <h2 className="pri-font font-weight-light">
+                            <h2 className="pri-font font-weight-light text-center">
                                 {this.props.experience.institution}
                             </h2>
-                            <h3 className="sec-font mb-5">
+                            <h3 className="sec-font mb-5 text-center">
                                 {this.props.experience.period}
                             </h3>
                             <Button
