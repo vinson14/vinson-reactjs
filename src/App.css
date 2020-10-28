@@ -196,6 +196,7 @@ body,
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
     align-items: center !important;
+    justify-content: center !important;
 }
 
 .flip-card-back {
