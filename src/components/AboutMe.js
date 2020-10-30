@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Image } from "react-bootstrap";
+import parse from "html-react-parser";
 
 import Vinson from "../static/img/vinson.png";
 
@@ -18,15 +19,9 @@ class AboutMe extends React.Component {
                 <Col
                     xs={12}
                     md={6}
-                    className="my-3 px-3 d-flex flex-column justify-content-center"
+                    className="my-3 px-3 d-flex flex-column justify-content-center sec-font text-white"
                 >
-                    {this.props.about.profile.split("\n").map((i) => {
-                        return (
-                            <p className="sec-font text-white" key={i}>
-                                {i}
-                            </p>
-                        );
-                    })}
+                    <p>{parse(this.props.about.profile)}</p>
                 </Col>
             </Row>
         );

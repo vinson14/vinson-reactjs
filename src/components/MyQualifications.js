@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import parse from "html-react-parser";
 
 class MyQualifications extends React.Component {
     render() {
@@ -12,13 +13,7 @@ class MyQualifications extends React.Component {
                     className="pri-font text-white text-center p-3"
                 >
                     <div className="border border-grey p-3 d-flex flex-column justify-content-center align-items-center">
-                        {q.name.split("\n").map((n) => {
-                            return (
-                                <p className="my-1" key={n}>
-                                    {n}
-                                </p>
-                            );
-                        })}
+                        <p className="my-1">{parse(q.name)}</p>
                         <p className="text-yellow mt-3">{q.institution}</p>
                     </div>
                 </Col>

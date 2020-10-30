@@ -1,33 +1,33 @@
 {
     "about": {
-        "profile": "I am an Associate Financial Consultant with AIA Singapore (SP-HUX) since 2015 with experience in both personal and commercial insurance. I joined in 2015 whilst I was still an undergraduate in NUS and I have since generated more than $0.5mil in revenue. I utilise the logical thinking imbued in me as a student of engineering to deliver sound financial advice to my clients. \n \n Equipping myself with new skills in a variety of areas is something which I constantly do. Web development, machine learning algorithms, algorithmic trading, photography are some skills which I have taught myself through various platforms. I believe that constantly increasing my arsenal of skills and applying them in my life is the only way to thrive in today's fast-paced society.",
+        "profile": "I am an Associate Financial Consultant with AIA Singapore (SP-HUX) since 2015 with experience in both personal and commercial insurance. I joined in 2015 whilst I was still an undergraduate in NUS and I have since generated more than $1mil in revenue. I utilise the logical thinking imbued in me as a student of engineering to deliver sound financial advice to my clients. <br /> <br /> Equipping myself with new skills in a variety of areas is something which I constantly do. Web development, machine learning algorithms, algorithmic trading, photography are some skills which I have taught myself through various platforms. I believe that constantly increasing my arsenal of skills and applying them in my life is the only way to thrive in today's fast-paced society.",
         "qualifications": [
             {
-                "name": "Bachelors of Engineering\n(Chemical Engineering)\nwith Honours (Distinction)",
+                "name": "Bachelors of Engineering<br />(Chemical Engineering)<br />with Honours (Distinction)",
                 "institution": "National University of Singapore"
             },
             {
-                "name": "M5\nRules & Regulations\nfor Financial Advisory",
+                "name": "M5<br />Rules & Regulations<br />for Financial Advisory",
                 "institution": "Singapore College of Insurance"
             },
             {
-                "name": "M9 & M9A\n Life Insurance\nand Investment-Linked Policies",
+                "name": "M9 & M9A<br /> Life Insurance<br />and Investment-Linked Policies",
                 "institution": "Singapore College of Insurance"
             },
             {
-                "name": "Chartered Financial Consultant\nSingapore\nModule 01",
+                "name": "Chartered Financial Consultant<br />Singapore<br />Module 01",
                 "institution": "Singapore College of Insurance"
             },
             {
-                "name": "Certificate in\nGeneral Insurance\n(CGI)",
+                "name": "Certificate in<br />General Insurance<br />(CGI)",
                 "institution": "Singapore College of Insurance"
             },
             {
-                "name": "CS50's\nIntroduction to\nComputer Science",
+                "name": "CS50's<br />Introduction to<br />Computer Science",
                 "institution": "Cambridge, Massachusetts"
             },
             {
-                "name": "Financial Technology\nProgramme 2020",
+                "name": "Financial Technology<br />Programme 2020",
                 "institution": "National University of Singapore"
             }
         ],
@@ -71,14 +71,14 @@
             "role": "Financial Consultant",
             "institution": "AIA Singapore",
             "period": "Aug 2015 - Present",
-            "details": "Rising Star Award 2015, Million Dollar Club 2019 (Gold)\nDesigned the personal financial portfolio of over 150 clients\nGenerated over $1mil in revenue",
+            "details": "Rising Star Award 2015<br />Million Dollar Club 2019 (Gold)<br /><br />Designed the personal financial portfolio of over 150 clients<br />Generated over $1mil in revenue",
             "img": "financialconsultant.jpg"
         },
         {
             "role": "Platoon Commander",
             "institution": "Alpha Company, 10C4i Battalion",
             "period": "Jan 2013 - Nov 2013",
-            "details": "Underwent rigorous training to be commissioned as a platoon commander for wartime and peacetime missions\nLed a team of 20 soldiers to support security forces in various high-key events such as the IISS Shangri-la Dialogue 2013 and National Day Parade 2013",
+            "details": "Underwent rigorous training to be commissioned as a platoon commander for wartime and peacetime missions<br /><br />Led a team of 20 soldiers to support security forces in various high-key events such as the IISS Shangri-la Dialogue 2013 and National Day Parade 2013",
             "img": "platooncommander.jpg"
         }
     ],
