@@ -6,7 +6,6 @@ import Header from "../components/Header";
 class Explore extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { choice: "Explore or Exploit" };
     }
 
     randomize = () => {
@@ -45,10 +44,18 @@ class Explore extends React.Component {
                     <Row>
                         <Col className="translucent-black p-5 d-flex flex-column align-items-center">
                             <h1
-                                className="green-color pri-font font-weight-bold"
+                                className="pri-font green-color font-weight-bold text-center"
                                 id="choice"
                             >
-                                {this.state.choice}
+                                <span className="text-white font-weight-light">
+                                    Life is a constant decision between
+                                    exploration and exploitation.
+                                    <br /> Should you
+                                </span>{" "}
+                                explore or exploit{" "}
+                                <span className="text-white font-weight-light">
+                                    at this moment?
+                                </span>
                             </h1>
                             <Button
                                 variant="outline-light"
